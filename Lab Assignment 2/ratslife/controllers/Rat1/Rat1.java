@@ -100,7 +100,7 @@ public class Rat1 extends Robot {
           rightSpeed = maxSpeed;
         }
         else{
-          // lost contact, reducing left motor speed to return to normal
+          // lost contact, reducing left motor speed to return to normal 
           leftSpeed = maxSpeed/8;
           rightSpeed = maxSpeed;
         }
